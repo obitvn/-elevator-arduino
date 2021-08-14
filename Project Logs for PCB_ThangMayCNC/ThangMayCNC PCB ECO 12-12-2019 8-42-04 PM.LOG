@@ -1,0 +1,69 @@
+Removed Pin From Net: NetName=CALL_3 Pin=A2-18
+Removed Pin From Net: NetName=CALL_2 Pin=A2-19
+Removed Pin From Net: NetName=CALL_1 Pin=A2-20
+Removed Pin From Net: NetName=BUTTON_3 Pin=A2-21
+Removed Pin From Net: NetName=BUTTON_2 Pin=A2-22
+Removed Pin From Net: NetName=BUTTON_1 Pin=A2-23
+Removed Pin From Net: NetName=CALL_2 Pin=C10-2
+Removed Pin From Net: NetName=CALL_3 Pin=C11-2
+Removed Pin From Net: NetName=CALL_2 Pin=R13-1
+Removed Pin From Net: NetName=CALL_3 Pin=R14-1
+Change Component Footprint: Designator=C7 Old Footprint=KF4-5.08 New Footprint=JP4-C1T
+Change Component Designator: OldDesignator=C8 NewDesignator=C9
+Change Component Designator: OldDesignator=C9 NewDesignator=C10
+Change Component Designator: OldDesignator=C10 NewDesignator=C11
+Change Component Designator: OldDesignator=C11 NewDesignator=C12
+Added Component: Designator=C3(CP1.5/3.4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Description 1"; Value = "2200uF-3300uF/6,3V - 1000uF-2200uF/10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 2"; Value = "1000uF/16V - 470uF => 1000uF/25V - 100uF/100V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 3"; Value = "330uF>470uF/35V_220uF>470uF/50V_10uF>22uF/250V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 4"; Value = "220uF => 330uF/63V - 10uF =>33uF/160 - 200V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 5"; Value = "4,7uF>10uF/250V_3,3uF>10uF/400V - 2,2uF>4,7uF/450V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1000uF/16V"; VariantName = "[No Variations]"
+Added Component: Designator=C8(JP3-D1T)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613003143121"; VariantName = "[No Variations]"
+Added Component: Designator=C13(SM-0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "103"; VariantName = "[No Variations]"
+Added Component: Designator=R15(RES-SMD-0805)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=CALL_3 Pin=A2-19
+Added Pin To Net: NetName=CALL_1 Pin=A2-22
+Added Pin To Net: NetName=BUTTON_3 Pin=A2-23
+Added Pin To Net: NetName=BUTTON_2 Pin=A2-24
+Added Pin To Net: NetName=BUTTON_1 Pin=A2-25
+Added Pin To Net: NetName=VCC Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=VCC Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=VCC Pin=R15-2
+Added Pin To Net: NetName=CALL_2A Pin=A2-21
+Added Pin To Net: NetName=CALL_2A Pin=C11-2
+Added Pin To Net: NetName=CALL_2A Pin=R13-1
+Added Net: Name=CALL_2A
+Added Pin To Net: NetName=CALL_2B Pin=A2-20
+Added Pin To Net: NetName=CALL_2B Pin=C12-2
+Added Pin To Net: NetName=CALL_2B Pin=R14-1
+Added Net: Name=CALL_2B
+Added Pin To Net: NetName=CALL_4 Pin=C13-2
+Added Pin To Net: NetName=CALL_4 Pin=R15-1
+Added Net: Name=CALL_4
+Added Pin To Net: NetName=NetA2_14 Pin=A2-14
+Added Pin To Net: NetName=NetA2_14 Pin=C8-3
+Added Net: Name=NetA2_14
+Added Member To Class: ClassName=ThangMayCNC Member=Component C3 1000uF/16V
+Added Member To Class: ClassName=ThangMayCNC Member=Component C12 104
+Added Member To Class: ClassName=ThangMayCNC Member=Component C13 104
+Added Member To Class: ClassName=ThangMayCNC Member=Component R15 10k
+Added Room: Name=ThangMayCNC
